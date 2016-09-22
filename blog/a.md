@@ -13,6 +13,7 @@ import Marked from './marked'
 
 class Routers extends React.Component {
   render() {
+    
     return (
       <Router history={hashHistory}>
         <Route path="/" component={App}>
