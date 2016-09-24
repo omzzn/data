@@ -13,11 +13,11 @@ import Marked from './marked'
 
 class Routers extends React.Component {
   render() {
-    
+
     return (
       <Router history={hashHistory}>
         <Route path="/" component={App}>
-          <IndexRoute component={Home} />
+          <IndexRoute component={Home} />  //在首页显示
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/blog/:title" component={Blog} />
